@@ -79,6 +79,14 @@ body {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 300px;
+    padding: 20px;
+  }
+}
+
 .container .hero > img {
   border-radius: inherit;
   -webkit-border-radius: inherit;
@@ -111,9 +119,8 @@ body {
   -o-transition: opacity 0.3s ease-in-out;
 }
 
-.container .hero:hover div ,
-.container .hero:focus div
-{
+.container .hero:hover div,
+.container .hero:focus div {
   opacity: 1;
 }
 
@@ -232,9 +239,9 @@ body {
 }
 
 @media (max-width: 992px) {
-    .attribution {
-        flex-direction: column;
-    }
+  .attribution {
+    flex-direction: column;
+  }
 }
 
 .attribution a {
