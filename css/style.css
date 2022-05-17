@@ -33,6 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-size: 100%;
   width: 100%;
   min-height: 100vh;
   background-color: var(--Very-dark-blue);
@@ -55,7 +56,7 @@ body {
 }
 
 * p {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 * img {
   max-width: 100%;
@@ -69,21 +70,21 @@ body {
 /* card container and hero */
 .container {
   position: relative;
-  width: 350px;
-  box-shadow: 0 5px 20px 20px rgb(0 0 0 / 20%);
+  width: 21.875em;
+  box-shadow: 0 0.3125em 1.25em 1.25em rgb(0 0 0 / 20%);
   background-color: var(--dark-blue);
-  padding: 25px 22px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  padding: 1.5625em 1.375em;
+  border-radius: 1.25em;
+  -webkit-border-radius: 1.25em;
+  -moz-border-radius: 1.25em;
+  -ms-border-radius: 1.25em;
+  -o-border-radius: 1.25em;
 }
 
 @media (max-width: 1200px) {
   .container {
-    width: 300px;
-    padding: 25px 20px;
+    width: 18.75em;
+    padding: 1.5625em 1.25em;
   }
 }
 
@@ -125,7 +126,7 @@ body {
 }
 
 .container .hero div img {
-  width: 40px;
+  width: 2.5em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -139,18 +140,18 @@ body {
 /* card-head */
 
 .card-head {
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 }
 .card-head h1 {
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 1.25em 0;
   color: var(--White);
 }
 
 .card-head p {
   color: var(--Soft-blue);
-  margin-bottom: 15px;
+  margin-bottom: 0.9375em;
 }
 
 /* card-body */
@@ -159,7 +160,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
   position: relative;
 }
 
@@ -167,21 +168,21 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -25px;
+  bottom: -1.5625em;
   background: var(--light-dark-blue);
   width: 100%;
   height: 1px;
 }
 
 .card-body p {
-  margin-left: 5px;
+  margin-left: 0.3125em;
 }
 
 .card-body .section-right,
 .card-body .section-left {
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .card-body .section-right p {
@@ -201,11 +202,11 @@ body {
 .card-footer {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
 .card-footer img {
-  width: 30px;
+  width: 1.875em;
   border: 1px solid var(--White);
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -215,8 +216,8 @@ body {
 }
 
 .card-footer p {
-  margin-left: 20px;
-  font-size: 16px;
+  margin-left: 1.25em;
+  font-size: 1em;
   color: var(--White);
   font-weight: 400;
 }
